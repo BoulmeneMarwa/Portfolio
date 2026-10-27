@@ -1,0 +1,51 @@
+body{background-color:#DEFFFB;}
+h1{color:pink;text-align:center;font-size:50px;}
+a{color:orange; font-size:20px;}
+
+/* Pour index*/
+#tIntro th,td,tr {border:0px solid;border-collapse:separate;font-size:18px;}
+#tableFemmes{border-collapse:collapse; font-size:18px ;text-align:center; margin-left: 200px;}
+#tableFemmes td,th{border:2px solid green; padding-left : 55px; padding-right:55px; padding-top:10px;padding-bottom:10px;}
+#imageFemme {width:50px ;height:auto;margin-left : 25px;}
+
+/* Pour Grace Murray Hopper*/
+#introGrace{font-style:italic;color:green }
+
+#Jeunesse{display:none;font-size:20px;color:#E297F7;}
+#boutonJeunesse{color: blue;font-size:20px; border:10px double RGB(10,42,200);background-color:#E297F7;}
+
+#Carrière{display:none;font-size:20px;color:#F797AC;}
+#boutonCarrière{color:blue;font-size: 20px; border:10px double RGB(10,42,200);background-color:#F797AC;}
+
+/* Pour Ada Lovelace*/
+#Biographieetaccomplissemnts{color:red;text-align:center; background-color : rgb(250,200,129); width:20%;margin:3px ; padding-left:5px ; border-collapse:separate}
+#Accomplissements{color:red;text-align:center; background-color : rgb(250,200,129);width: 20%;margin : 3px ; padding-left : 5px ;}
+/* Tableau Ada Lovelace uniquement */
+#Savoirs{
+    width:90%;
+    margin:auto;
+    background-color:white;
+}
+
+/* En-têtes spécifiques */
+#Savoirs th {
+    background-color:#FCEDED;
+    font-size:16pt;
+    border:1px solid black;
+    text-align:center;
+}
+
+/* Cellules spécifiques */
+#Savoirs td{
+    border:1px solid black;
+    vertical-align:top;
+}
+
+/* Lien de retour */
+#lien{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Pour Sources*/

@@ -1,0 +1,10 @@
+import locale
+locale.setlocale(locale.LC_ALL, "")
+
+L = ["Prune", "prune", "levées", "lève-glaces",
+     "lèvent", "leçon", "Lecteur"]
+
+print(sorted(L, key=locale.strxfrm))
+On obtient :
+['leçon', 'Lecteur', 'levées', 'lève-glaces',
+'lèvent', 'prune', 'Prune']
